@@ -14,6 +14,8 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
-
+        int[] array = new int[7];
+        // Will throw an ArrayIndexOutOfBoundsException
+        array[8] = 50;
     }
 }
